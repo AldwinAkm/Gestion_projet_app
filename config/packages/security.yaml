@@ -20,6 +20,7 @@ security:
                 login_path: login_index
 
             logout:
+                path: /logout
                 target: login_index
                 invalidate_session: true
 
